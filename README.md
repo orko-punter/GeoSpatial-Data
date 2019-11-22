@@ -1,6 +1,3 @@
-                                                # GeoSpatial-Data
-
-
 # To spot main commercial centers in Jaipur
 
 The notebook uses GeoDataFrames for manipullating geospatial data.     
@@ -8,6 +5,6 @@ The notebook uses GeoDataFrames for manipullating geospatial data.
 
 
 # Data-Extraction
-The spatial data for Jaipur was downloaded from osm(openstreetmap) in the form of geojon file. 
+The geospatial data for Jaipur was downloaded from osm(openstreetmap) in the form of geojon file. 
 Using the overpy api is the most convenient method. Queries in the proper format are sent                                 through overpass-turbo to generate requests followed by exporting the geoson files.
 Generating queries in the proper format was done through fstring in python.
